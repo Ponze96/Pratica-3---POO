@@ -1,11 +1,19 @@
 package Questao1;
 
 public class Normal extends Ingresso {
-	public void imprimeingressoNormal(float valor){
-        valor = Ingresso.ValorIngresso;
-        System.out.println("Ingresso Normal:"+ valor );
+	
+	Normal(float valor){
+		super(valor);
+	}
+	
+	public void imprimeingressoNormal(){
+        System.out.println("Ingresso Normal:"+ getValorIngresso() );
        
     }
+
+	private String getValorIngresso() {
+		return null;
+	}
 }
 	
 	

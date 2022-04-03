@@ -1,6 +1,10 @@
 package Questao1;
 
 public class VIP extends Ingresso {
+	public VIP(float valor) {
+		super(valor);
+		// TODO Auto-generated constructor stub
+	}
 	public float ValorAdicional;
 	   
     public float getValorAdicional(){
@@ -11,7 +15,7 @@ public class VIP extends Ingresso {
     }
     public float valorIngressoVip(float valoringresso){
          Ingresso.ValorIngresso = valoringresso;
-        return Ingresso.ValorIngresso + (this.ValorAdicional* Ingresso.ValorIngresso);       
+         return Ingresso.ValorIngresso + (this.ValorAdicional* Ingresso.ValorIngresso11);       
     }
 }
 		
